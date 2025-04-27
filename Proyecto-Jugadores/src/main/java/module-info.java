@@ -1,7 +1,8 @@
 module org.example.proyectojugadores {
     requires javafx.controls;
     requires javafx.fxml;
-    requires kotlin.stdlib;
+    requires kotlinx.serialization.core;
+    requires net.devrieze.xmlutil.serialization;
 
 
     opens org.example.proyectojugadores to javafx.fxml;
